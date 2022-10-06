@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    margin: 12rem auto;
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    font-weight: 900;
+    font-size: 1.25rem;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, p {
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 4rem;
+}
+
+@keyframes colorchange {
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:yellow; left:200px; top:0px;}
+    50%  {color:blue; left:200px; top:200px;}
+    75%  {color:green; left:0px; top:200px;}
+    100% {color:red; left:0px; top:0px;}
+}
+
