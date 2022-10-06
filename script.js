@@ -5,7 +5,7 @@ function changeColor() {
     let hexNumber1 = getRandomHex();
     let hexNumber2 = getRandomHex();
     document.body.style.background= `linear-gradient(to right, #${hexNumber1}, #${hexNumber2})`;
-    document.querySelector(".hexName").innerHTML=`background: linear-gradient(to right, ${hexNumber1}, ${hexNumber2})` ;
+    document.querySelector(".hexName").innerHTML=`background: linear-gradient(to right, #${hexNumber1}, #${hexNumber2});` ;
 }
 
 function getRandomHex() {
